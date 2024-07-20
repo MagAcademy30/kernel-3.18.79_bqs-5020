@@ -170,3 +170,11 @@ obj-$(CONFIG_MTK_TINYSYS_SCP_SUPPORT) += audio_ipi/
 obj-$(CONFIG_MTK_VOW_SUPPORT)	+= vow/
 obj-$(CONFIG_USB)	+= usb_boost/
 obj-$(CONFIG_RT_REGMAP) += rt-regmap/
+
+# Modules
+obj-$(CONFIG_MODULES) += modules/connectivity/common/
+obj-$(CONFIG_MODULES) += modules/connectivity/bt/mt66xx/
+obj-$(CONFIG_MODULES) += modules/connectivity/fmradio/
+obj-$(CONFIG_MODULES) += modules/connectivity/gps/
+obj-$(CONFIG_MODULES) += modules/connectivity/wlan/adaptor/
+obj-$(CONFIG_MODULES) += modules/connectivity/wlan/core/gen2/
