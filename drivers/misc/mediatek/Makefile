@@ -172,9 +172,9 @@ obj-$(CONFIG_USB)	+= usb_boost/
 obj-$(CONFIG_RT_REGMAP) += rt-regmap/
 
 # Modules
-obj-$(CONFIG_MODULES) += modules/connectivity/common/
-obj-$(CONFIG_MODULES) += modules/connectivity/bt/mt66xx/
-obj-$(CONFIG_MODULES) += modules/connectivity/fmradio/
-obj-$(CONFIG_MODULES) += modules/connectivity/gps/
-obj-$(CONFIG_MODULES) += modules/connectivity/wlan/adaptor/
-obj-$(CONFIG_MODULES) += modules/connectivity/wlan/core/gen2/
+#obj-$(CONFIG_MODULES) += modules/connectivity/common/
+#obj-$(CONFIG_MODULES) += modules/connectivity/bt/mt66xx/
+#obj-$(CONFIG_MODULES) += modules/connectivity/fmradio/
+#obj-$(CONFIG_MODULES) += modules/connectivity/gps/
+#obj-$(CONFIG_MODULES) += modules/connectivity/wlan/adaptor/
+#obj-$(CONFIG_MODULES) += modules/connectivity/wlan/core/gen2/
